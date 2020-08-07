@@ -2,4 +2,4 @@
 
 Repo for my personal portfolio.
 
-Building it using html, css, javascript, sass and npm.
+Building it using html, css, javascript, sass.
