@@ -162,7 +162,7 @@ img {
 
 /*=== HOME ===*/
 .home {
-  background-image: url(/dist/img/wave-bg.png);
+  background-image: url("/dist/img/wave-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -383,9 +383,6 @@ img {
     height: 100vh;
     grid-template-rows: 1.7fr 1fr;
     row-gap: 0; }
-  .home__img {
-    width: 424px;
-    right: 10%; }
   .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
