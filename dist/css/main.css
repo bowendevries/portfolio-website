@@ -252,7 +252,12 @@ img {
 
 /*=== SKILLS ===*/
 .skills__container {
-  row-gap: 2rem; }
+  row-gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center; }
 
 .skill__subtitle {
   color: var(--first-color);
@@ -271,8 +276,9 @@ img {
   background-color: var(--first-color);
   color: var(--white-color); }
 
-.skills__img img {
-  border-radius: 0.5rem; }
+.skills__animation {
+  display: flex;
+  justify-content: center; }
 
 /*=== PORTFOLIO ===*/
 .portfolio {
@@ -391,8 +397,9 @@ img {
   .about__img img {
     width: 165px; }
   .skills__container {
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center; }
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem; }
   .portfolio__container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
