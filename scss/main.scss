@@ -151,6 +151,9 @@ img {
     transition: 0.5s;
     backdrop-filter: blur(10px);
   }
+  .home {
+    height: calc(100vh - var(--header-height));
+  }
 }
 
 .nav__item {
